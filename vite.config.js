@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/', // 确保这是相对路径
+  base: './', // 确保这是相对路径
   build: {
     outDir: 'dist',
   },
