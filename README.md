@@ -1,5 +1,25 @@
-# Vue 3 + Vite
+# 🎮 Flappy Game Site
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple **Vue 3 + Vite** web project that embeds an HTML5 game from **itch.io**.  
+This project is built for testing the full workflow of deploying a front-end site overseas — from local development to global hosting (via Vercel).
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+## 🚀 Tech Stack
+
+- ⚡ **Vite** — Fast build tool for modern web projects
+- 🧩 **Vue 3** — Reactive front-end framework using `<script setup>`
+- 🌍 **Itch.io Embedded Game** — HTML5 iframe-based game
+- ☁️ **Vercel** — Zero-config global deployment
+
+---
+
+## 🛠️ Local Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
+```
